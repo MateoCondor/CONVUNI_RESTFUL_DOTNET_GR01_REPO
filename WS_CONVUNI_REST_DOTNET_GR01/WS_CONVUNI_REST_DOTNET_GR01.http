@@ -1,6 +1,0 @@
-@WS_CONVUNI_REST_DOTNET_GR01_HostAddress = http://localhost:5259
-
-GET {{WS_CONVUNI_REST_DOTNET_GR01_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
