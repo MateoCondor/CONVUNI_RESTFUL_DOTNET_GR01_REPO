@@ -132,11 +132,11 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label2.ForeColor = Color.FromArgb(28, 63, 97);
-            label2.Location = new Point(132, 31);
+            label2.Location = new Point(111, 31);
             label2.Name = "label2";
-            label2.Size = new Size(265, 25);
+            label2.Size = new Size(301, 25);
             label2.TabIndex = 9;
-            label2.Text = "CONVERSIÓN DE UNIDADES";
+            label2.Text = "CLIESC RESTFUL - DOTNET GR01";
             // 
             // LoginView
             // 

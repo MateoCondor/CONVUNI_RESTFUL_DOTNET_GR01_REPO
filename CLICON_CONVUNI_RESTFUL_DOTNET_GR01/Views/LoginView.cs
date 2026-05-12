@@ -5,6 +5,7 @@ public class LoginView
     public (string username, string password) ShowLogin()
     {
         Console.Clear();
+        Console.WriteLine("=== CLICON RESTFUL - DOTNET GR01 ===");
         Console.WriteLine("=== INICIO DE SESIÓN ===");
         Console.Write("Usuario: ");
         string user = Console.ReadLine() ?? "";
