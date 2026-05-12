@@ -58,7 +58,7 @@ const unitEnumValues: Record<ConversionCategory, Record<string, number>> = {
 };
 
 const defaultBaseUrl = Platform.select({
-  android: 'http://192.168.100.158:5259',
+  android: 'http://10.9.8.27:5259',
   default: 'http://localhost:5259',
 }) as string;
 
