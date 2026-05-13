@@ -58,8 +58,8 @@ const unitEnumValues: Record<ConversionCategory, Record<string, number>> = {
 };
 
 const defaultBaseUrl = Platform.select({
-  android: 'http://10.9.8.27:5259',
-  default: 'http://localhost:5259',
+  android: 'http://10.40.24.51:5259',
+  default: 'http://10.40.24.51:5259',
 }) as string;
 
 const envBaseUrl = process.env.EXPO_PUBLIC_API_BASE_URL?.trim();

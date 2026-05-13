@@ -22,7 +22,7 @@ static class Program
         var provider = new AnonymousAuthenticationProvider();
         var adapter = new HttpClientRequestAdapter(provider)
         {
-            BaseUrl = "http://localhost:5259"
+            BaseUrl = "http://10.40.24.51:5259"
         };
         var client = new UnitConversionClient(adapter);
 

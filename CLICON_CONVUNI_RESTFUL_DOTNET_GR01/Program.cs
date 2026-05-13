@@ -8,7 +8,7 @@ using CLICON_CONVUNI_RESTFUL_DOTNET_GR01.WebClients;
 var authProvider = new AnonymousAuthenticationProvider();
 var adapter = new HttpClientRequestAdapter(authProvider)
 {
-    BaseUrl = "http://localhost:5259"
+    BaseUrl = "http://10.40.24.51:5259"
 };
 var client = new UnitConversionClient(adapter);
 
